@@ -13,7 +13,6 @@ header{
     color:#f1f1e9;
     width: 100%;
     height: 120px;
- width:100%;
     overflow: hidden;
     margin:0 auto;
 
@@ -56,8 +55,7 @@ li{
 }
 
 .main-text{
-    
-    max-width: 50%;
+    width:360px;
     margin:0 auto;
     padding-top: 40px;
 }
@@ -65,7 +63,7 @@ li{
 
 img{
 margin:auto;
-width:370px;
+width:360px;
 }
 
 
@@ -73,6 +71,7 @@ width:370px;
 p{
     padding: 40px 10px 20px 10px;
 }
+
 figure{
     float:right;
 
