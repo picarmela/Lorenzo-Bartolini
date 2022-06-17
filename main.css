@@ -7,7 +7,6 @@ body{
     text-align: center;
 }
 
-
 header{
     background-color:#3a333b;
     color:#f1f1e9;
@@ -69,11 +68,6 @@ width:360px;
 
 
 
-figure{
-    float:right;
-
-}
-
 figcaption{
     font-family: 'Open Sans', sans-serif;
     font-size: 0.6em;
@@ -86,51 +80,40 @@ figcaption{
     width:370px;
 }
 
-/* hr.style17 {
-	border-top: 1px solid #8c8b8b;
-	text-align: center;
-}
-hr.style17:after {
-	content: '***';
-	display: inline-block;
-	position: relative;
-	top: 0px;
-	padding: 0 10px;
-	background: #f0f0f0;
-	color: #8c8b8b;
-	font-size: 28px;
-	-webkit-transform: rotate(60deg);
-	-moz-transform: rotate(60deg);
-	transform: rotate(60deg);
-} */
+
 
 
 @media (min-width:917px) {
-    img{
-        float:right;  
-        margin: 20px;
-      }
-      li{
-        display:inline;
-      }
+    
+    
+img{
+    float:right;  
+    margin: 20px;
+}
+li{
+    display:inline;
+}
 
-
-
-  .main-text{
+.main-text{
     width: 100%;
 }
 header{
     height: 65px;
-
 }
-
   
 .main-text{
     max-width: 50%;
     float:left;
-    margin-left: 50px;
     margin-top: 50px;
 }
+
+
+
+
+
+
+
+
 
 
 
