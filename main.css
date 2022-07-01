@@ -127,9 +127,7 @@ footer{
     background-color:#241f20;
     height:50px;
     margin-top: 20px;
-    position:absolute;
-    bottom:0px;
-    width:100%;
+ 
 
 }
 
@@ -152,6 +150,10 @@ footer a{
 /* -------------------DESKTOP LAYOUT ------------------*/ 
 
 @media (min-width:740px) {
+
+    h1{
+        font-size:2rem;
+    }
     
     
 figure{
@@ -168,6 +170,10 @@ header{
     height: 120px;
     width: 100%;
     text-align: center;
+}
+
+.container{
+    height: 85vh;
 }
   
 
@@ -198,20 +204,10 @@ nav.mobile{
     width:70%;
 
 }
-.container{
-    margin-left: auto px;
-    margin-right:auto ;
-    width:900px;
-}
+
 p{
    padding-left: 20pxpx;
     width:50%;
-}
-
-
-.container{
-    margin-left:auto;
-    margin-right:auto;
 }
 
 
