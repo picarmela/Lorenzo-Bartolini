@@ -127,6 +127,8 @@ footer{
     background-color:#241f20;
     height:50px;
     margin-top: 20px;
+    position:fixed;
+    bottom:0;
  
 
 }
