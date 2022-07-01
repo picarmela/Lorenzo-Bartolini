@@ -1,22 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+}
 body{
     font-family: 'Josefin Slab', serif;
     font-weight: 800;
     font-size: 20px;
     background-color:#f1f1e9;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
+ 
+}
+.container{
+    padding: 0 25px 0 25px;
 }
 
 header{
+    height: 65px;
     background-color:#241f20;
     color:#f1f1e9;
     width: 100%;
     height: 60px;
-    margin-left:0;
-    padding-left:0;
-
-
+    padding:10px;
 }
 nav{
     display:none;
@@ -35,7 +38,7 @@ nav.mobile a{
 
 }
 .mobile-menu{
-margin: 0 auto;
+margin: 10px auto;
 text-align: center;
 }
 
@@ -43,8 +46,9 @@ text-align: center;
 
 h1{
     font-size:1.2em;
-    padding: 10px 20px;
-    float:left;
+    text-align: center;
+    margin-top:20px;
+
 }
 a{
     text-decoration: none;
@@ -59,6 +63,7 @@ a{
 
 li{
     list-style: none;
+    padding-top:5px;
 
 }
 
@@ -75,29 +80,32 @@ li{
 
 .main-text{
     width:360px;
-    margin:0 auto;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 0px;
     text-align: left;
+    width:100%;
 
 }
 p{
     margin:auto;
+    margin-top: 50px;
+   
 }
 
 
 img{
-margin:auto 5%;
+margin:auto;
 width:360px;
 display:block;
+margin-left:auto;
+margin-right:auto;
+width: 100%;
 }
-section.container{
-    padding:0;
-    display:block;
-    margin: 0;
-    max-width: 1000px;
-}
+
 figure{
-    position: relative;
+    margin:0 auto;
+
 }
 
 
@@ -108,21 +116,48 @@ figcaption{
     padding-top:10px;
     padding-bottom: 10px;;
     border-bottom: solid #6b686b 0.5px;
-    margin-top:5px;
-    margin-bottom: 20px;;
+    margin:10px;
     width:370px;
-    position:assolute;
+    display:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+footer{
+    background-color:#241f20;
+    height:50px;
+    margin-top: 20px;
+    position:absolute;
+    bottom:0px;
+    width:100%;
+
+}
+
+footer a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.6em; 
+    color: #f1f1e9;
+    background-color: transparent;
+    display: inline;
+}
+
+.wiki{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left:10px;
 }
 
 
 
+/* -------------------DESKTOP LAYOUT ------------------*/ 
 
 @media (min-width:740px) {
     
     
-img{
+figure{
     float:right;  
     margin: 20px;
+    margin-top: 60px;
 }
 li{
     display:inline;
@@ -130,42 +165,66 @@ li{
 
 
 header{
-    height: 65px;
+    height: 120px;
+    width: 100%;
+    text-align: center;
 }
   
-.main-text{
-    max-width: 50%;
-    float:left;
-    margin-top: 50px;
-}
+
+
 
 nav{
 
-    padding:10px;
-    margin-right: 20px;
-    line-height: 22px;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    display: inline-block;
-    display:flex;
-    float:right;
-    padding:10px;
-    margin-right: 20px;
+    display:inline;
+    padding:0px;
+    margin: 0px auto;
+    text-align: center;
     
+}
+nav li{
+    display:inline-block;
 }
 
 nav.mobile{
     display:none;
+    margin-bottom: 6px;
 
+}
+.text{
+    margin-left: 0;
+    padding-top: 40px;
+    width:70%;
+
+}
+.container{
+    margin-left: auto px;
+    margin-right:auto ;
+    width:900px;
+}
+p{
+   padding-left: 20pxpx;
+    width:50%;
 }
 
 
+.container{
+    margin-left:auto;
+    margin-right:auto;
+}
 
 
-
-
-
-
+nav ul{
+    margin-top: 10px;
+}
+nav li{
+    margin-right: 7px;
+    margin-left: 7px;
+}
+nav a{
+padding:4px;
+}
 
 }
 
