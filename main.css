@@ -17,7 +17,7 @@ body{
  
 }
 .container{
-    padding: 0 25px 65px 25px !important;
+    padding: 0 25px 85px 25px !important;
 }
 
 header{
@@ -95,6 +95,7 @@ li{
     padding-top: 0px;
     text-align: left;
     width:100%;
+    line-height: 1.9rem;;
 
 }
 p{
@@ -135,12 +136,13 @@ margin-right:auto;
 
 footer{
     background-color:rgba(36, 31, 32, 0.589);
-    height:50px;
-    margin-top: 20px;
+    height:75px;
+    margin-top: 0px;
     position:fixed;
     bottom:0;
     width:100%;
-    padding:10px;
+    padding:5px 0 12 0;
+    text-align:center;
  
 
 }
@@ -153,13 +155,12 @@ footer a{
     display: block;
     text-align:center;
 }
-
-.wiki{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left:10px;
+.icons a{
+    display: inline;
 
 }
+
+
 
 .margin-top{
     margin-top:50px;
@@ -168,11 +169,16 @@ footer a{
 
 .icons{
     color:#f1f1e9;
-    margin-top:8px;
+    margin-top:20px;
     margin-left: auto;
     margin-right: auto;
     width:200px;
     text-align:center;
+}
+.icons i{
+    padding: 0 20px 0 4px;
+    font-size:1.6rem;
+
 }
 
 
@@ -190,6 +196,7 @@ figure{
     float:right;  
     margin: 20px;
     margin-top: 60px;
+    margin-bottom:100px;
 }
 li{
     display:inline;
@@ -203,8 +210,8 @@ header{
 }
 
 .container{
-    height: 85vh;
-    margin-bottom: 20px;;
+   
+    margin-bottom: 100px;
 }
   
 
