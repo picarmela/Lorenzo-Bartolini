@@ -8,14 +8,14 @@
 }
 
 body{
-    font-family: 'Josefin Slab', serif;
-    font-weight: 800;
-    font-size: 20px;
-    background-color:#f1f1e9;
+    font-family: 'Josefin Slab', serif !important;
+    font-weight: 800!important;
+    font-size: 20px!important;
+    background-color:#f1f1e9 !important;
  
 }
 .container{
-    padding: 0 25px 0 25px;
+    padding: 0 25px 0 25px !important;
 }
 
 header{
