@@ -4,6 +4,8 @@
 }
 .background{
     background-color: rgba(36, 31, 32, 0.589) !important;
+    font-family: 'Open Sans', sans-serif!important;
+    font-size:0.8rem;
  
 }
 
@@ -15,7 +17,7 @@ body{
  
 }
 .container{
-    padding: 0 25px 0 25px !important;
+    padding: 0 25px 65px 25px !important;
 }
 
 header{
@@ -31,8 +33,11 @@ nav{
 
 }
 nav.mobile{
-    display:block!important;
-    text-align: center;
+    display:block !important;
+    text-align: center !important;
+    font-family: 'Open Sans', sans-serif!important;
+    font-size:1rem;
+
 }
 
 
@@ -129,11 +134,13 @@ margin-right:auto;
 }
 
 footer{
-    background-color:#241f20;
+    background-color:rgba(36, 31, 32, 0.589);
     height:50px;
     margin-top: 20px;
     position:fixed;
     bottom:0;
+    width:100%;
+    padding:10px;
  
 
 }
@@ -142,14 +149,30 @@ footer a{
     font-family: 'Open Sans', sans-serif;
     font-size: 0.6em; 
     color: #f1f1e9;
-    background-color: transparent;
-    display: inline;
+    background-color: transparent !important;
+    display: block;
+    text-align:center;
 }
 
 .wiki{
     margin-top: 20px;
     margin-bottom: 10px;
     margin-left:10px;
+
+}
+
+.margin-top{
+    margin-top:50px;
+}
+
+
+.icons{
+    color:#f1f1e9;
+    margin-top:8px;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+    text-align:center;
 }
 
 
@@ -181,6 +204,7 @@ header{
 
 .container{
     height: 85vh;
+    margin-bottom: 20px;;
 }
   
 
@@ -188,7 +212,7 @@ header{
 
 nav{
 
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif!important;
     font-size: 16px;
     display:inline !important;
     padding:0px;
@@ -228,6 +252,16 @@ nav li{
 nav a{
 padding:4px;
 }
+
+
+figcaption{
+
+margin-left:20px;
+width:900px;
+
+}
+
+
 
 }
 
