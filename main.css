@@ -2,6 +2,11 @@
     margin:0;
     padding:0;
 }
+.background{
+    background-color: rgba(36, 31, 32, 0.589) !important;
+ 
+}
+
 body{
     font-family: 'Josefin Slab', serif;
     font-weight: 800;
@@ -22,24 +27,24 @@ header{
     padding:10px;
 }
 nav{
-    display:none;
+    display:none !important;
 
 }
 nav.mobile{
-    display:block;
+    display:block!important;
     text-align: center;
 }
 
 
 nav.mobile a{
-    color:#241f20;
-    text-align: center;
+    color:#241f20 !important;
+    text-align: center !important;
 
 
 }
 .mobile-menu{
-margin: 10px auto;
-text-align: center;
+margin: 10px auto !important;
+text-align: center !important;
 }
 
 
@@ -51,11 +56,11 @@ h1{
 
 }
 a{
-    text-decoration: none;
-    color:white;
-    background-color:#d7b070;
-    line-height: 28px;
-    padding: 2px;
+    text-decoration: none !important;
+    color:white !important;
+    background-color:#d7b070 !important;
+    line-height: 28px !important;
+    padding: 2px !important;
     
 }
 
@@ -185,18 +190,18 @@ nav{
 
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    display:inline;
+    display:inline !important;
     padding:0px;
     margin: 0px auto;
     text-align: center;
     
 }
 nav li{
-    display:inline-block;
+    display:inline-block !important;
 }
 
 nav.mobile{
-    display:none;
+    display:none !important;
     margin-bottom: 6px;
 
 }
